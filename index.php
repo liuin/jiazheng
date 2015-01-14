@@ -10,21 +10,7 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <script src="js/jquery.js" type="text/javascript"></script>
     <script src="js/MSClass.js" type="text/javascript"></script>
-    <script src="js/script.js" type="text/javascript"></script>
-    <!--产品展示 开始-->
-    <script type="text/javascript" src="/scripts/common.js"></script>
-    <script type="text/javascript" src="/scripts/MSClass.js"></script>
-    <!--产品展示 结束-->
- 
-
-
-    <script src="/scripts/jquery.lazyload.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        $(function () {
-            $("img.lazy").lazyload();
-        })
-    </script> 
-   
+    <script src="js/script.js" type="text/javascript"></script>   
 </head>
 <body>
 
@@ -383,11 +369,8 @@
                 <ul>
                     <li class="on"><a href="#" >首 页</a></li>
                     <li class=""><a href="#">找服务员</a></li>
-                    <li class=""><a href="#" >找雇主</a></li>
                     <li class=""><a href="#" >店面顾问</a></li>
                     <li class=""><a href="#" >前沿资讯</a></li>
-                    <li id="icon02" class=""><a href="#">高端保洁</a></li>
-                    <li class=""><a href="#">会员俱乐部</a></li>
                     <li style="background-image: none;" class=""><a href="#" >关于我们</a></li>
                     
                 </ul>
