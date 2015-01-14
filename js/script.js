@@ -94,8 +94,9 @@ $.fn.extend({
       }    
       for(var i = 0 ; i < menus.length ; i++)
       { 
-       _this.$(menus[i]).value = i;    
-       _this.$(menus[i]).onmousemove = function(){
+        try {
+           _this.$(menus[i]).value = i;    
+           _this.$(menus[i]).onmousemove = function(){
          
         for(var j = 0 ; j < menus.length ; j++)
         {      
@@ -105,6 +106,12 @@ $.fn.extend({
         _this.$(menus[this.value]).className = openClass; 
         _this.$(divs[this.value]).style.display = "block";    
        }
+        }
+        catch (e) {
+          
+        }
+      
+       
       }
       },
      $ : function(oid){
@@ -123,7 +130,84 @@ $.fn.extend({
     }
 }(jQuery);
  
+
++function ($) {
+
+  
+          var currentindex = 1;
+          $('#flash').css('background-color', $('#flash1').attr('name'));
+           
+          function changeflash(i) {
+              currentindex = i;
+              for (j = 1; j <= 3; j++) {
+                  if (j == i) {
+                      $('#flash' + j).fadeIn('normal');
+                      $('#flash' + j).css('display', 'block');
+                      $('#f' + j).removeClass();
+                      $('#f' + j).addClass('dq');
+                      $('#flash').css('background-color', $('#flash' + j).attr('name'));
+                  } else {
+                      $('#flash' + j).css('display', 'none');
+                      $('#f' + j).removeClass();
+                      $('#f' + j).addClass('no');
+                  }
+              }
+          }
+          function startAm() {
+              timerID = setInterval(function  () {
+                timer_tick();
+              }, 4000);
+          }
+          function stopAm() {
+              clearInterval(timerID);
+          }
+          function timer_tick() {
+              currentindex = currentindex >= 3 ? 1 : currentindex + 1;
+              changeflash(currentindex);
+          }
+          $(document).ready(function () {
+              $('.flash_bar div').mouseover(function () {
+                  stopAm();
+              }).mouseout(function () {
+                  startAm();
+              });
+              startAm();
+
+              $(".flash_bar div").on('click',function  () {
+                var ind = $(this).index();
+                changeflash(ind+1);
+              })
+          }); 
+
+}(jQuery);
  
 
 
- 
++function ($) {
+  'use strict';
+  /*可控制左右无缝循环*/
+  function srcoll_left_right_Control(control_enabel,direction,left_div,right_div,scroll_body,scroll_content,total_width,total_height,scroll_width,scroll_speed)
+  {
+      /************control_enabel：是否启用按钮控制ID************/
+      /************direction：滚动方向：0上 1下 2左 3右************/
+      /************left_div：左控制按钮ID************/
+      /************right_div：右控制按钮ID************/
+      /************scroll_body：循环主体容器ID************/
+      /************scroll_content：循环主体内容容器ID************/
+      /************total_width：循环体总宽度************/
+      /************total_height：循环体总高度************/
+      /************scroll_width：每次循环宽度（0为翻屏）************/
+      /************scroll_speed：循环速度步长（越大越慢）************/
+      
+      var MarqueeDivControl=new Marquee([scroll_body,scroll_content],direction,0.2,total_width,total_height,scroll_speed,3000,3000,scroll_width);
+      if(control_enabel==true)
+      {
+          $("#"+left_div).click(function(){MarqueeDivControl.Run(3);});	
+          $("#"+right_div).click(function(){MarqueeDivControl.Run(2);});	
+      }
+  }
+
+  $(document).ready(function() {
+    srcoll_left_right_Control(true, 2, "LeftButton1", "RightButton1", "MarqueeDiv1", "MarqueeDiv3Boxent1", 727, 355, 184, 20);  
+  })
+}(jQuery);
