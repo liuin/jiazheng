@@ -90,9 +90,16 @@ a:hover{ color:#F00;}
 .nav { background-color:#2064c8; width:100%; margin:0; text-align:left;}
 .nav .main { width:1210px; margin:0 auto; background-color:#2064c8; height:36px; position:relative; z-index:99998;}
 .nav .main .nav_main_left { width:211px; float:right; display:inline; }
-.nav_all_information { height:31px; background-image:url(../images/bg.jpg); background-repeat:no-repeat; background-position:-154px 0;font-size:14px; font-weight:bold; color:#fff; line-height:31px; margin-top:5px; padding:0 0 0 10px;}
-.nav_all_information02:hover { height:31px; background-image:url(../images/bg.jpg); background-repeat:no-repeat; background-position:-154px -31px;font-size:14px; font-weight:bold; color:#dc7500; line-height:31px; margin-top:5px; padding:0 0 0 10px;}
+.nav_all_information { height:31px; font-size:14px; font-weight:bold; color:#fff; line-height:31px; margin-top:5px; padding:0 0 0 10px;}
+.nav_all_information .navarrow-up{display:none;}
+.nav_all_information02 .navarrow-up {display:inline;}
+.nav_all_information02 .navarrow-down {display:none;}
+
+.nav_all_information02:hover { height:31px; font-size:14px; font-weight:bold; color:#fff; line-height:31px; margin-top:5px; padding:0 0 0 10px;}
 .nav_all_information02:hover .nav_info02 { display:block; *_width:211px;}
+.nav_all_information02:hover .navarrow-up{display:none;}
+.nav_all_information02:hover .navarrow-down{display:inline;}
+
 .nav .main .nav_main_right { width:999px; float:right; display:inline;}
 .nav .main .nav_main_right ul li { font-size:14px; font-weight:bold; float:left; display:inline; line-height:36px; width:98px; text-align:center; padding:0 0px 0 0;}
 .nav .main .nav_main_right ul li.bo { float:right; background-image:url(../images/bg.jpg); background-repeat:no-repeat; background-position:-155px -97px; width:92px; padding:0 0 0 30px;}
@@ -202,17 +209,17 @@ h2.title02 a:hover { color:#fff;}
 
 /**找服务员**/
 .partb { margin-top:15px; overflow:hidden;}
-.partb h2 { border-bottom:2px solid #5b5b5b; padding:0 10px 0 0; height:40px; width:1200px; position:relative; display:block; }
-.partb h2 strong { width:129px; height:35px; background-image:url(../images/bg.jpg); background-repeat:no-repeat; background-position:-165px -311px; position:absolute; top:0; left:40px;}
+.partb h2 { border-bottom:2px solid #58c; padding:0 10px 0 0; height:40px; width:1200px; position:relative; display:block; }
+.partb h2 strong { width: 129px; height: 35px; position: absolute; top: 0; left: 40px; font: 400 18px Microsoft Yahei, \5b8b\4f53; line-height: 40px; color:#36c;}
 .partb h2 ul { width:980px;  right:10px; top:5px; display:block; position:absolute;}
 .partb h2 ul li { font-size:12px; font-weight:normal; line-height:35px; height:35px; text-align:center; color:#666; float:left; display:inline; width:100px; }
-.partb h2 ul li.on { font-size:12px; font-weight:normal; line-height:35px; height:35px; border:2px solid #5b5b5b; border-bottom:none; background-color:#FFF; }
+.partb h2 ul li.on { font-size:12px; font-weight:normal; line-height:35px; height:35px; border:2px solid #58c; border-bottom:none; background-color:#58c; }
 .partb h2 ul li.bo { float:right; text-align:right; margin-right:5px;}
 .partb h2 ul li a { color:#666; }
-.partb h2 ul li.on a { color:#333;}
-.partb h2 ul li a:hover { color:#ff7800;}
+.partb h2 ul li.on a { color:#fff;}
+
 .partb .main { overflow:hidden; padding:0 0 0 20px;}
-.partb .main ul li { width:216px; border:1px solid #e6e6e6; float:left; display:inline; margin-right:20px; margin-top:20px; padding-top:25px; background-color:#FFF; height:380px; overflow:hidden;}
+.partb .main ul li { width:176px; border:1px solid #e6e6e6; float:left; display:inline; margin-right:20px; margin-top:20px; padding-top:25px; background-color:#FFF; height:380px; overflow:hidden;}
 .partb .main ul li:hover { background-color:#fff7ee; border:1px solid #fed98b;} 
 .partb .main ul li .li_box { width:155px;  overflow:hidden; margin:0 auto;}
 .partb .main ul li .li_box a { width:155px;  margin:0 auto; display:block; height:200px; position:relative; margin-bottom:5px;}
@@ -284,10 +291,10 @@ h2.title02 a:hover { color:#fff;}
 .partd .main dl.dst02 dt a i { height:30px; line-height:30px; color:#FFF; font-size:12px; font-weight:normal; text-align:center; display:block; width:196px; font-style:normal; position:absolute; bottom:0; left:1px; z-index:2; cursor:pointer;}
 .partd .main dl.dst02 dt a:hover { text-decoration:none;}
 
-/**关于泰维峰**/
+/**公司介绍**/
 .parte { margin-top:15px; overflow:hidden;}
-.parte h2 { border-bottom:2px solid #5b5b5b; padding:0 15px 0 0; height:40px; width:1195px; overflow:hidden; display:block;}
-.parte h2 strong { width:159px; height:35px; background-image:url(../images/bg.jpg); background-repeat:no-repeat; background-position:-165px -416px; float:left; display:inline; margin-left:40px;}
+.parte h2 { border-bottom:2px solid #58c; padding:0 15px 0 0; height:40px; width:1195px; overflow:hidden; display:block; position:relative;}
+.parte h2 strong {width: 129px; height: 35px; position: absolute; top: 0; left: 40px; font: 400 18px Microsoft Yahei, \5b8b\4f53; line-height: 40px; color:#36c;}
 .parte h2 span { float:right; font-size:12px; font-weight:normal; line-height:45px; color:#666;}
 .parte h2 span a { color:#666;}
 .parte h2 span a:hover { color:#ff7800;}
@@ -297,7 +304,7 @@ h2.title02 a:hover { color:#fff;}
 .blk04 h3 a { font-size:12px; font-weight:normal; float:right; color:#666666; font-family:"微软雅黑";}
 .blk04 h3 a:hover { color:#ff7800;}
 .blk04 .blk04_main { overflow:hidden; padding:10px 0 0 0;}
-.blk04_main_info01 { overflow:hidden; padding:0 2px 0 5px; border-bottom:1px solid #e6e6e6; height:130px;}
+.blk04_main_info01 { overflow:hidden; padding:0 2px 0 5px; border-bottom:0px solid #e6e6e6; height:207px;}
 .blk04_main_info01 img { width:148px; height:90px; float:left; margin-right:15px;}
 .blk04_main_info01 p { font-size:12px; font-weight:normal; line-height:20px; color:#666; text-indent:2em;}
 .blk04_main_info01 p span { color:#ff7800;}
@@ -353,11 +360,11 @@ h2.title02 a:hover { color:#fff;}
 .screen .main .screen_info dl { width:1091px; float:left; background-color:#FFF; display:block; padding:6px 0 6px 10px;  line-height:22px; }
 .screen .main .screen_info dl dt { width:54px; float:left;}
 .screen .main .screen_info dl dt a {  font-size:12px; font-weight:normal; color:#666666; display:block;  border:1px solid #fff; font-family:Arial, Helvetica, sans-serif; text-align:center; height:18px; margin-top:2px;  line-height:18px;}
-.screen .main .screen_info dl dt a:hover {background-color:#ff9500; color:#fff; text-decoration:none; text-decoration:none; border:1px solid #ff8400;}
+.screen .main .screen_info dl dt a:hover {background-color:#58c; color:#fff; text-decoration:none; text-decoration:none; border:1px solid #58c;}
 .screen .main .screen_info dl dd { width:1006px; float:left; margin-left:10px; text-align:left; }
 .screen .main .screen_info dl dd a { font-size:12px; font-weight:normal; color:#666666;  display:inline-block; padding:0 15px;  border:1px solid #fff; font-family:Arial, Helvetica, sans-serif; }
-.screen .main .screen_info dl dd a:hover { background-color:#ff9500; color:#fff;  line-height:18px; text-decoration:none; text-decoration:none; border:1px solid #ff8400;}
-.screen .main .screen_info dl a.a_on { background-color:#ff9500; color:#fff;  border:1px solid #ff8400; }
+.screen .main .screen_info dl dd a:hover { background-color:#58c; color:#fff;  line-height:18px; text-decoration:none; text-decoration:none; border:1px solid #58c;}
+.screen .main .screen_info dl a.a_on { background-color:#58c; color:#fff;  border:1px solid #58c; }
 .del a { color:#666; background-image:url(../images/icon07.png); background-repeat:no-repeat; text-align:center; display:block; background-position:8px 6px; background-color:#f3f3f3; padding:0 0 0 20px; width:90px; height:25px; font-size:12px; font-weight:normal; line-height:25px; position:absolute; right:-1px; top:-25px;}
 .del a:hover { color:#fff; background-image:url(../images/icon08.png); background-repeat:no-repeat; text-align:center; display:block; background-position:8px 6px; background-color:#ff9500; padding:0 0 0 20px; width:90px; height:25px; font-size:12px; font-weight:normal; line-height:25px; position:absolute; right:-1px; top:-25px; text-decoration:none;}
 /**排序**/
@@ -384,7 +391,7 @@ h2.title02 a:hover { color:#fff;}
 /**列表-平铺**/
 .list { overflow:hidden;}
 .list .main { overflow:hidden; padding:0 0 0 20px;}
-.list .main ul li { width:216px; border:1px solid #e6e6e6; float:left; display:inline; margin-right:20px; margin-top:20px; padding-top:25px; background-color:#FFF; height:410px; overflow:hidden;}
+.list .main ul li { width:176px; border:1px solid #e6e6e6; float:left; display:inline; margin-right:20px; margin-top:20px; padding-top:25px; background-color:#FFF; height:410px; overflow:hidden;}
 .list .main ul li:hover { background-color:#fff7ee; border:1px solid #fed98b;} 
 .list .main ul li .li_box { width:155px;  overflow:hidden; margin:0 auto;}
 .list .main ul li .li_box a { width:155px;  margin:0 auto; display:block; height:200px; position:relative; margin-bottom:5px;}
@@ -1228,8 +1235,8 @@ h2.title09 span i {  color:#ff7800; font-weight:bold; font-style:normal; margin:
 	/**真实雇主评价**/
 /**高端保洁**/
 .new_partd { margin-top:1px; overflow:hidden;}
-.new_partd h2 { border-bottom:2px solid #5b5b5b; padding:0 15px 0 0; height:40px; width:1195px; overflow:hidden; display:block;}
-.new_partd h2 strong { width:177px; height:35px; background-image:url(../images/new_pic01.jpg); background-repeat:no-repeat; float:left; display:inline; margin-left:40px;}
+.new_partd h2 { border-bottom:2px solid #58c; padding:0 15px 0 0; height:40px; width:1195px; overflow:hidden; display:block; position:relative;}
+.new_partd h2 strong { width: 129px; height: 35px; position: absolute; top: 0; left: 40px; font: 400 18px Microsoft Yahei, \5b8b\4f53; line-height: 40px; color:#36c;}
 .new_partd h2 span { float:right; font-size:12px; font-weight:normal; line-height:45px; color:#666;}
 .new_partd h2 span a { color:#666;}
 .new_partd h2 span a:hover { color:#ff7800;}

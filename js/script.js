@@ -187,18 +187,7 @@ $.fn.extend({
   'use strict';
   /*可控制左右无缝循环*/
   function srcoll_left_right_Control(control_enabel,direction,left_div,right_div,scroll_body,scroll_content,total_width,total_height,scroll_width,scroll_speed)
-  {
-      /************control_enabel：是否启用按钮控制ID************/
-      /************direction：滚动方向：0上 1下 2左 3右************/
-      /************left_div：左控制按钮ID************/
-      /************right_div：右控制按钮ID************/
-      /************scroll_body：循环主体容器ID************/
-      /************scroll_content：循环主体内容容器ID************/
-      /************total_width：循环体总宽度************/
-      /************total_height：循环体总高度************/
-      /************scroll_width：每次循环宽度（0为翻屏）************/
-      /************scroll_speed：循环速度步长（越大越慢）************/
-      
+  { 
       var MarqueeDivControl=new Marquee([scroll_body,scroll_content],direction,0.2,total_width,total_height,scroll_speed,3000,3000,scroll_width);
       if(control_enabel==true)
       {
@@ -209,5 +198,14 @@ $.fn.extend({
 
   $(document).ready(function() {
     srcoll_left_right_Control(true, 2, "LeftButton1", "RightButton1", "MarqueeDiv1", "MarqueeDiv3Boxent1", 727, 355, 184, 20);  
+  })
+}(jQuery);
+
+
+//图片延迟加载
++function ($) {
+  'use strict';
+  $(document).ready(function() {
+     $("img.lazy").lazyload();  
   })
 }(jQuery);
