@@ -101,3 +101,72 @@
 .hover .qq .mask {
 	FILTER: alpha(opacity=0); opacity: 0
 }
+
+/*分页start*/
+.page_off { 	font-size: 12px; 	color: #999999; 	border: 1px solid #DDDDDD; 	padding-right: 10px; 	padding-left: 10px }
+.page_on { 	font-size: 12px; 	font-weight: bold; 	color: #2E6AB1; 	border: 1px solid #9AAFE5; 	padding-right: 10px; 	padding-left: 10px }
+.page_on_t { 	font-size: 12px; 	font-weight: bold; 	color: #2E6AB1; }
+A.page_on_t:link { 	font-size: 12px; 	font-weight: bold; 	color: #2E6AB1; 	TEXT-DECORATION: none }
+A.page_on_t:visited { 	font-size: 12px; 	font-weight: bold; 	color: #2E6AB1; 	TEXT-DECORATION: none }
+A.page_on_t:hover { 	font-size: 12px; 	font-weight: bold; 	color: #000000; 	TEXT-DECORATION: none }
+.page_num { 	font-size: 12px; 	font-weight: normal; 	color: #2E6AB1; 	border: 1px solid #9AAFE5; 	padding-right: 6px; 	padding-left: 6px }
+.page_num_t { 	font-size: 12px; 	font-weight: normal; 	color: #2E6AB1; }
+A.page_num_t:link { 	font-size: 12px; 	font-weight: normal; 	color: #2E6AB1; 	TEXT-DECORATION: none }
+A.page_num_t:visited { 	font-size: 12px; 	font-weight: normal; 	color: #2E6AB1; 	TEXT-DECORATION: none }
+A.page_num_t:hover { 	font-size: 12px; 	font-weight: normal; 	color: #000000; 	TEXT-DECORATION: none }
+.page_omit { 	font-size: 12px; 	font-weight: bold; 	color: #000000; 	padding-right: 6px; 	padding-left: 6px }
+.page_current { 	font-size: 12px; 	font-weight: bold; 	color: #FFFFFF; 	border: 1px #2E6AB1 solid; 	background-color: #2E6AB1; 	padding-right: 6px; 	padding-left: 6px }
+/*分页end*/
+
+@charset "utf-8";
+/*
+  root element for the scrollable.
+  when scrolling occurs this element stays still.
+  */
+.dst14 dt { border:1px solid #e6e6e6; width:300px; height:300px; overflow:hidden;}  
+.dst14 dt a{ margin: 0 auto; margin-left:32px; }
+.dst14 dt img { width:233px; height:300px; }
+.scrollable {
+
+    /* required settings */
+    position:relative;
+    overflow:hidden;
+    width: 305px;
+    height:56px;
+}
+
+/*
+   root element for scrollable items. Must be absolutely positioned
+   and it should have a extremely large width to accomodate scrollable
+   items.  it's enough that you set the width and height for the root
+   element and not for this element.
+*/
+.scrollable .items {
+    /* this cannot be too large */
+    width:20000em;
+    position:absolute;
+    clear:both;
+}
+
+.items div {
+    float:left;
+    width:352px;
+	overflow:hidden;
+}
+
+/* single scrollable item */
+.scrollable img {
+    float:left;
+    margin:0 2px;
+    width:55px;
+    height:55px; display:inline;
+    border:1px solid #E0E0E0;
+}
+
+
+/* active item */
+.scrollable .active {
+    border:1px solid #ff7800;
+    position:relative;
+    cursor:default;
+}

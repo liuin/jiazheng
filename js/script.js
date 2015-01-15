@@ -197,7 +197,9 @@ $.fn.extend({
   }
 
   $(document).ready(function() {
-    srcoll_left_right_Control(true, 2, "LeftButton1", "RightButton1", "MarqueeDiv1", "MarqueeDiv3Boxent1", 727, 355, 184, 20);  
+    if ($("#MarqueeDiv1").length > 0) {
+      srcoll_left_right_Control(true, 2, "LeftButton1", "RightButton1", "MarqueeDiv1", "MarqueeDiv3Boxent1", 727, 355, 184, 20);        
+    }
   })
 }(jQuery);
 

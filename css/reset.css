@@ -24,7 +24,7 @@ img{display:block;}
 .clear{clear:both;font-size:0;line-height:0;height:0;}
 /**链接**/
 a{outline: none;text-decoration: none; color:#36c;}
-a:hover{ color:#F00;}
+a:hover{ color:#ff7800;}
 .fmove img{display:inline;}
 
 .top { width:100%; margin:0;}
@@ -366,7 +366,7 @@ h2.title02 a:hover { color:#fff;}
 .screen .main .screen_info dl dd a:hover { background-color:#58c; color:#fff;  line-height:18px; text-decoration:none; text-decoration:none; border:1px solid #58c;}
 .screen .main .screen_info dl a.a_on { background-color:#58c; color:#fff;  border:1px solid #58c; }
 .del a { color:#666; background-image:url(../images/icon07.png); background-repeat:no-repeat; text-align:center; display:block; background-position:8px 6px; background-color:#f3f3f3; padding:0 0 0 20px; width:90px; height:25px; font-size:12px; font-weight:normal; line-height:25px; position:absolute; right:-1px; top:-25px;}
-.del a:hover { color:#fff; background-image:url(../images/icon08.png); background-repeat:no-repeat; text-align:center; display:block; background-position:8px 6px; background-color:#ff9500; padding:0 0 0 20px; width:90px; height:25px; font-size:12px; font-weight:normal; line-height:25px; position:absolute; right:-1px; top:-25px; text-decoration:none;}
+.del a:hover { color:#fff;  text-align:center; display:block; background-position:8px 6px;  padding:0 0 0 20px; width:90px; height:25px; font-size:12px; font-weight:normal; line-height:25px; position:absolute; right:-1px; top:-25px; text-decoration:none; color:#58c;}
 /**排序**/
 .sort { background-color:#f7f7f7; height:40px; overflow:hidden; padding:12px 10px 0 15px; margin-top:10px;}
 .sort ul li { font-size:12px; font-weight:normal; line-height:25px; color:#666; float:left; display:inline;}
@@ -456,7 +456,7 @@ h2.title02 a:hover { color:#fff;}
 .page span { border:1px solid #e6e6e6; background-color:#f7f7f7; line-height:25px; height:25px; overflow:hidden; padding:0 10px; display:inline-block; color:#666; font-family:Arial, Helvetica, sans-serif; vertical-align:middle;}
 
 /**--------------------------------------------------------------------------------找服务员详情-------------------------------------------------------------------------------**/
-.content02_info01 { overflow:hidden;}
+.content02_info01 { overflow:hidden; margin-bottom:30px;}
 .c02_info01_left { width:312px; float:left; display:inline;}
 .c02_info01_left .icon_box { overflow:hidden; text-align:left; margin-top:10px;}
 .c02_info01_left .icon_box a { display:inline-block; width:35px; height:22px; margin-right:1px; color:#FFF; line-height:22px; padding:0 0 0 24px;}
@@ -464,7 +464,7 @@ h2.title02 a:hover { color:#fff;}
 .c02_info01_left .icon_box a.icon004 { background-image:url(../images/bg02.jpg); background-repeat:no-repeat; background-position:-107px 0;}
 .c02_info01_left .icon_box a.icon005 { background-image:url(../images/bg02.jpg); background-repeat:no-repeat; background-position:-167px 0;}
 .icon_box a:hover { font-weight:bold; color:#FFF; text-decoration:none;}
-.c02_info01_right { width:895px; float:right; display:inline;}
+.c02_info01_right {width: 610px; float: left; display: inline;}
 
 .c02_info01_right001{width:850px;}
 
