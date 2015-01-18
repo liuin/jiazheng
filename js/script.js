@@ -1,6 +1,6 @@
 if (typeof jQuery === 'undefined') { throw new Error('JavaScript requires jQuery') }
 
-
+/*
 $(function () {
     //head 弹出菜单部分
     var cateMenu = function () {
@@ -38,7 +38,7 @@ $(function () {
 
     } ();
 })
-
+*/
 
 // Download by http://sc.xueit.com人气排行
 
@@ -121,13 +121,24 @@ $.fn.extend({
      }
 
     }
-
+    
+    
     window.onload = function () {
+        
         var SDmodel = new scrollDoor();
+        //人气排行
         SDmodel.sd(["a01", "a02"], ["aa01", "aa02"], "on", " ");
+        //找服务员
         SDmodel.sd(["b01", "b02", "b03", "b04", "b05", "b06"], ["bb01", "bb02", "bb03", "bb04", "bb05", "bb06"], "on", " ");
-        SDmodel.sd(["c01", "c02", "c03", "c04", "c05", "c06"], ["cc01", "cc02", "cc03", "cc04", "cc05", "cc06"], "on", " ");
+        //SDmodel.sd(["c01", "c02", "c03", "c04", "c05", "c06"], ["cc01", "cc02", "cc03", "cc04", "cc05", "cc06"], "on", " ");
+
+        //相似推荐
+        var SDmodelpos = new scrollDoor();
+        SDmodelpos.sd(["d01", "d02"], ["dd01", "dd02"], "on", " ");
+        SDmodelpos.sd(["e01", "e02", "e03"], ["ee01", "ee02", "ee03"], "on", " ");
     }
+
+
 }(jQuery);
  
 

@@ -465,17 +465,17 @@
             <h2>
             <strong>找服务员</strong>
             <ul>
-            <li class="on" id="b01" onmouseover="Load_IndexWaiter_Content('1','1');"><a href="#" target="_blank">日常家务</a>
+            <li class="on" id="b01"><a href="#" target="_blank">日常家务</a>
 </li>
-<li id="b02" onmouseover="Load_IndexWaiter_Content('2','2');"><a href="#" target="_blank">育儿服务</a>
+<li id="b02" ><a href="#" target="_blank">育儿服务</a>
 </li>
-<li id="b03" onmouseover="Load_IndexWaiter_Content('3','3');"><a href="#" target="_blank">月嫂服务</a>
+<li id="b03" ><a href="#" target="_blank">月嫂服务</a>
 </li>
-<li id="b04" onmouseover="Load_IndexWaiter_Content('4','4');"><a href="#" target="_blank">老人看护</a>
+<li id="b04" ><a href="#" target="_blank">老人看护</a>
 </li>
-<li id="b05" onmouseover="Load_IndexWaiter_Content('5','5');"><a href="#" target="_blank">病患特护</a>
+<li id="b05" ><a href="#" target="_blank">病患特护</a>
 </li>
-<li id="b06" onmouseover="Load_IndexWaiter_Content('6','6');"><a href="#" target="_blank">小时工</a>
+<li id="b06" ><a href="#" target="_blank">小时工</a>
 </li>
 <li style="width:200px;"><a style="text-decoration:none;">在线服务员：9111名</a>
 </li>

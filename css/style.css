@@ -124,7 +124,7 @@ A.page_num_t:hover { 	font-size: 12px; 	font-weight: normal; 	color: #000000; 	T
   when scrolling occurs this element stays still.
   */
 .dst14 dt { border:1px solid #e6e6e6; width:300px; height:300px; overflow:hidden;}  
-.dst14 dt a{ margin: 0 auto; margin-left:32px; }
+.dst14 dt a{ margin: 0 auto; margin-left:32px; display:block; }
 .dst14 dt img { width:233px; height:300px; }
 .scrollable {
 
@@ -170,3 +170,69 @@ A.page_num_t:hover { 	font-size: 12px; 	font-weight: normal; 	color: #000000; 	T
     position:relative;
     cursor:default;
 }
+
+.table_padding_5 td{ padding:5px;}
+.table_padding_6 td{ padding:6px;}
+.t14{ font-size:14px; }
+.t14_red { font-size: 14px; line-height: 150%; font-weight: bold; color: #c00; }
+.t12_red { font-size:12px; color:#f00; }
+.buttonSkinA{background: #58c; border: 0; color: #fff; width: 90px; height: 28px; font-size: 14px; font-family: "微软雅黑";}
+
+.img_border{
+	border:1px solid #d6d6d6;
+	}
+	
+	
+	.input_calendar {
+	background-image: url(../images/icon_calendar.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	width: 100px;
+}
+	
+/**会员中心右侧具体内容**/
+.mem_content { border:1px solid #e0e0e0;}
+.mem_content h2 { background-image:url(../images/title_bg05.jpg); background-repeat:repeat-x; height:33px;}
+.mem_content h2 span { display:block; float:left;  height:33px;  background-image:url(../images/title_bg07.jpg); background-repeat:repeat-x; background-position:left;}
+.mem_content h2 span strong { display:block; float:left; height:33px; line-height:33px; color:#fff;  font-size:14px; font-weight:bold;  padding:0 32px; font-family:"微软雅黑"; font-weight:bold;}
+.mem_content .main { padding:20px;}
+
+.memorder_date { background-color:#f1f1f1; border:1px solid #dddddd; padding:5px 5px 5px 8px; width:723px;}
+.memorder_date .input08 { width:120px; margin-right:10px;}
+.memorder_date .input09 { width:216px; margin-right:10px;}
+.memorder_date .input10 { background-image:url(../images/buttom_bg01.jpg); background-repeat:no-repeat; width:36px; height:20px; border:0; padding:0; cursor:pointer;  background:#58c; color:#fff;}
+.memorder_info { background-image:url(../images/num_bg.jpg); background-repeat:repeat-x; height:31px; border-left:1px solid #dddddd; border-right:1px solid #dddddd; overflow:hidden;}
+.memorder_info ul li { font-size:12px; font-weight:normal; line-height:31px; float:left; display:inline; color:#666; text-align:center; height:31px; overflow:hidden;}
+.memorder_table table { background-color:#e9e9e9;}
+.memorder_table table td { font-size:12px; font-weight:normal; line-height:20px; text-align:center; background-color:#FFF; padding:10px 0; font-family:"微软雅黑"; vertical-align:middle;}
+.memorder_table table td a { color:#165c92; display:block;}
+.memorder_table table td a:hover { color:#622b28;}
+.memorder_table table td span { display:block;}
+.memorder_table table td img { float:left;width:50px; height:50px; border:1px solid #CCC; margin:0 auto;display:inline;border:1px solid #CCC;}
+
+.memorder_table table td span a:hover { color:#622b28;}
+.memorder_table .num_box { text-align:right; margin-top:15px;}
+.memorder_table .num_box a { font-size:12px; font-weight:normal; line-height:20px; color:#666; border:1px solid #e9e9e9; padding:0 7px; margin-left:5px; display:inline-block;}
+.memorder_table .num_box a:hover { color:#622b28;}
+
+/*评价*/
+ table.pingjia td{border-bottom:1px solid #dadada;  font-size:12px; }
+ table.pingjia a{color:#666666; text-decoration:none;}
+ table.pingjia a.zj{color:#ff9900; text-decoration:none;}
+ table.pingjia  td.mei{border-bottom:none;}
+ 
+ 
+ .zkw_title21 { height:25px; overflow:hidden;}
+.zkw_lst31 li { font-size:12px; font-weight:normal; line-height:25px; float:left; display:inline; background-color:#ececec; margin-right:5px; color:#333; padding:0 10px;}
+.zkw_lst31 li a { color:#333;}
+.zkw_lst31 li a:hover{ color:#333;}
+.zkw_lst31 li.on { color:#FFF; font-weight:bold; background-color:#58c;}
+.zkw_lst31 li.on a{ color:#FFF; font-weight:bold;}
+.zkw_lst31 li.on a:hover{ color:#FFF; font-weight:bold;}
+
+.zkw_lst33 li { float:left; display:inline; margin-left:5px;margin-top:5px;}
+.zkw_lst33 li img { width:50px; height:50px; border:1px solid #CCC;}
