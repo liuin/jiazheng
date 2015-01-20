@@ -30,8 +30,8 @@ a:hover{ color:#ff7800;}
 .top { width:100%; margin:0;}
 
 /**头部**/
-.head { text-align:left; width:100%; margin:0; padding:0; background-image:url(../images/head_bg.jpg); background-repeat:repeat-x; background-position:top left;}
-.head_main { text-align:left; width:1210px; margin:0 auto; background-image:url(../images/head_bg.jpg); background-repeat:repeat-x; background-position:top left;}
+.head { text-align:left; width:100%; margin:0; padding:0; background-repeat:repeat-x; background-position:top left;}
+.head_main { text-align:left; width:1210px; margin:0 auto;  background-repeat:repeat-x; background-position:top left;}
 .head_info01 { display:block;}
 .head_info01 .main { height:34px; display:block;}
 .head_info01_left { font-size:12px; font-weight:normal; line-height:34px; color:#36c; padding:0 0 0 5px; text-align:right;}
@@ -116,17 +116,17 @@ a:hover{ color:#ff7800;}
 .nav .main .nav_main_right02 ul li.on a { background-image:url(../images/nav_li_bg02.jpg); background-repeat:no-repeat; background-position:center bottom; display:block;  height:36px; width:93px;}
 
 /**banner**/
-.banner { height:420px;  width:100%; margin:0 auto; *_overflow:hidden; background-image:url(../images/banner_bg.jpg); background-repeat:repeat-x;}
+.banner { height:420px;  width:100%; margin:0 auto; *_overflow:hidden;  background-repeat:repeat-x;}
 
 /**主体**/
-.big_content { width:100%; background-image:url(../images/content_bg.jpg); background-repeat:repeat-x; background-position:bottom; margin:0; text-align:left; } 
+.big_content { width:100%; background-repeat:repeat-x; background-position:bottom; margin:0; text-align:left; } 
 .big_content02 { width:100%;  margin:0; text-align:left; } 
-.content { overflow:hidden; width:1210px; margin:0 auto; text-align:left; margin-top:10px; background-image:url(../images/content_bg.jpg); background-repeat:repeat-x; background-position:bottom; padding:0 0 40px 0;}
-.content02 { overflow:hidden; width:1210px; margin:0 auto; text-align:left; background-image:url(../images/content_bg.jpg); background-repeat:repeat-x; background-position:bottom; padding:0 0 40px 0;}
+.content { overflow:hidden; width:1210px; margin:0 auto; text-align:left; margin-top:10px;  background-repeat:repeat-x; background-position:bottom; padding:0 0 40px 0;}
+.content02 { overflow:hidden; width:1210px; margin:0 auto; text-align:left; background-repeat:repeat-x; background-position:bottom; padding:0 0 40px 0;}
 .content03 { overflow:hidden; width:1210px; margin:0 auto; text-align:left; padding:0 0 20px 0;}
 .content04 { overflow:hidden; width:1000px; margin:0 auto; text-align:left; padding:0 0 20px 0;}
-.content05 { overflow:hidden; width:1210px; margin:0 auto; text-align:left; margin-top:10px; background-image:url(../images/content_bg.jpg); background-repeat:repeat-x; background-position:bottom; padding:0 0 40px 0;}
-.content06 { overflow:hidden; width:1210px; margin:0 auto; text-align:left; background-image:url(../images/content_bg.jpg); background-repeat:repeat-x; background-position:bottom; padding:0 0 40px 0;}
+.content05 { overflow:hidden; width:1210px; margin:0 auto; text-align:left; margin-top:10px;  background-repeat:repeat-x; background-position:bottom; padding:0 0 40px 0;}
+.content06 { overflow:hidden; width:1210px; margin:0 auto; text-align:left; background-repeat:repeat-x; background-position:bottom; padding:0 0 40px 0;}
 .parta { overflow:hidden;}
 .pa_left { width:998px; float:left; display:inline;}
 .pa_right { width:202px; overflow:hidden; float:right; display:inline;}
@@ -146,8 +146,8 @@ a:hover{ color:#ff7800;}
 .dropList dl dt p.dropList-hover span { display:none;}
 .dropList dl dt p.dropList-hover a { color:#DA0000;}
 .dropList dl dt p i { font-size:12px; font-weight:normal; color:#FFF; padding:0 0 0 2px;line-height:13px; font-style:normal; margin-right:8px; font-family:Arial, Helvetica, sans-serif; width:12px; height:14px; *_margin-top:3px;}
-.dropList dl dt p i.ibg01 { background-image:url(../images/num_bg01.jpg); background-repeat:no-repeat; display:inline-block;}
-.dropList dl dt p i.ibg02 { background-image:url(../images/num_bg02.jpg); background-repeat:no-repeat; display:inline-block;}
+.dropList dl dt p i.ibg01 { background-repeat:no-repeat; display:inline-block;}
+.dropList dl dt p i.ibg02 { background-repeat:no-repeat; display:inline-block;}
 .dropList dl dt p a { color:#666; height:30px; line-height:30px;}
 .dropList dl dt p a:hover { color:#ff7800;}
 .dropList dl dt p span { font-family:Arial, Helvetica, sans-serif; float:right;}
@@ -199,7 +199,7 @@ h2.title01 a { font-size:12px; font-weight:normal; color:#666; float:right; font
 h2.title01 a:hover { color:#ff7800;}
 .blk03 .main { overflow:hidden; padding:10px 0;}
 .blk03 .main ul { width:180px; margin:0 auto;}
-.blk03 .main ul li { font-size:12px; font-weight:normal; line-height:27px; background-image:url(../images/icon01.jpg); background-repeat:no-repeat; background-position:left; padding:0 0 0 10px;}
+.blk03 .main ul li { font-size:12px; font-weight:normal; line-height:27px; background-repeat:no-repeat; background-position:left; padding:0 0 0 10px;}
 .blk03 .main ul li a { color:#666;}
 .blk03 .main ul li a:hover { color:#ff7800;}
 .blk03 .main ul li span { color:#999; float:right; font-family:Arial, Helvetica, sans-serif;}
@@ -210,17 +210,21 @@ h2.title02 a:hover { color:#fff;}
 /**找服务员**/
 .partb { margin-top:15px; overflow:hidden;}
 .partb h2 { border-bottom:2px solid #58c; padding:0 10px 0 0; height:40px; width:1200px; position:relative; display:block; }
-.partb h2 strong { width: 129px; height: 35px; position: absolute; top: 0; left: 40px; font: 400 18px Microsoft Yahei, \5b8b\4f53; line-height: 40px; color:#36c;}
+.partb h2 strong { width: 129px; height: 35px; position: absolute; top: 0; left: 20px; font: 400 18px Microsoft Yahei, \5b8b\4f53; line-height: 40px; color:#36c;}
 .partb h2 ul { width:980px;  right:10px; top:5px; display:block; position:absolute;}
 .partb h2 ul li { font-size:12px; font-weight:normal; line-height:35px; height:35px; text-align:center; color:#666; float:left; display:inline; width:100px; }
 .partb h2 ul li.on { font-size:12px; font-weight:normal; line-height:35px; height:35px; border:2px solid #58c; border-bottom:none; background-color:#58c; }
 .partb h2 ul li.bo { float:right; text-align:right; margin-right:5px;}
 .partb h2 ul li a { color:#666; }
 .partb h2 ul li.on a { color:#fff;}
+.icon-server {background:url("../images/search-women.png") -10px 0 no-repeat; padding-left:25px;}
+.mast-icon {background:url("../images/guzhu.png") -6px 0 no-repeat; padding-left:30px;}
+.icon-comp {background:url("../images/comp.png") -4px 0 no-repeat; padding-left:35px;}
+
 
 .partb .main { overflow:hidden; padding:0 0 0 20px;}
 .partb .main ul li { width:176px; border:1px solid #e6e6e6; float:left; display:inline; margin-right:20px; margin-top:20px; padding-top:25px; background-color:#FFF; height:380px; overflow:hidden;}
-.partb .main ul li:hover { background-color:#fff7ee; border:1px solid #fed98b;} 
+.partb .main ul li:hover {background-color: #FAFCFF; border: 1px solid #9EC3F5;} 
 .partb .main ul li .li_box { width:155px;  overflow:hidden; margin:0 auto;}
 .partb .main ul li .li_box a { width:155px;  margin:0 auto; display:block; height:200px; position:relative; margin-bottom:5px;}
 .partb .main ul li .li_box a span { width:155px; height:30px;  background-color:#3895e6; position:absolute; left:1px; bottom:0; filter: Alpha(opacity=50); -moz-opacity:0.5; opacity:0.5; z-index:1;}
@@ -281,7 +285,7 @@ h2.title02 a:hover { color:#fff;}
 .partd .main dl dd p { display:block; padding:5px 0 5px 6px; font-size:12px; font-weight:normal; line-height:25px; color:#666666;}
 .partd .main dl dd a.more01 { font-size:12px; font-weight:normal; color:#ff7800; position:absolute; bottom:10px; right:20px;}
 .partd .main dl dd ul { display:block; margin-top:5px;}
-.partd .main dl dd ul li { width:173px; float:left; display:inline; line-height:25px; padding:0 0 0 15px; background-image:url(../images/icon01.jpg); background-repeat:no-repeat; background-position:5px 10px;}
+.partd .main dl dd ul li { width:173px; float:left; display:inline; line-height:25px; padding:0 0 0 15px;  background-repeat:no-repeat; background-position:5px 10px;}
 .partd .main dl dd ul li a { color:#666;}
 .partd .main dl dd ul li a:hover { color:#ff7800;}
 .partd .main dl.dst01 dd a { font-size:12px; font-weight:normal; line-height:48px; color:#666666; text-align:center; display:block;}
@@ -294,7 +298,7 @@ h2.title02 a:hover { color:#fff;}
 /**公司介绍**/
 .parte { margin-top:15px; overflow:hidden;}
 .parte h2 { border-bottom:2px solid #58c; padding:0 15px 0 0; height:40px; width:1195px; overflow:hidden; display:block; position:relative;}
-.parte h2 strong {width: 129px; height: 35px; position: absolute; top: 0; left: 40px; font: 400 18px Microsoft Yahei, \5b8b\4f53; line-height: 40px; color:#36c;}
+.parte h2 strong {width: 129px; height: 35px; position: absolute; top: 0; left: 20px; font: 400 18px Microsoft Yahei, \5b8b\4f53; line-height: 40px; color:#36c;}
 .parte h2 span { float:right; font-size:12px; font-weight:normal; line-height:45px; color:#666;}
 .parte h2 span a { color:#666;}
 .parte h2 span a:hover { color:#ff7800;}
@@ -323,8 +327,8 @@ h2.title02 a:hover { color:#fff;}
 .blk05 .blk05_main ul li p a:hover { color:#ff7800;}
 
 /**尾部**/
-.footer { width:100%; background-image:url(../images/foot_bg.jpg); background-repeat:repeat-x; background-position:top; margin:0; text-align:left;}
-.footer_main { width:1210px; margin:0 auto; background-image:url(../images/foot_bg.jpg); background-repeat:repeat-x; background-position:top; height:373px; overflow:hidden; margin-bottom:20px; text-align:left;}
+.footer { width:100%;background-repeat:repeat-x; background-position:top; margin:0; text-align:left;}
+.footer_main { width:1210px; margin:0 auto; background-repeat:repeat-x; background-position:top; height:373px; overflow:hidden; margin-bottom:20px; text-align:left;}
 .footer_info01 { height:164px; overflow:hidden;}
 .footer_info01 img { width:769px; margin:0 auto; margin-top:30px;}
 .footer_info02 { overflow:hidden; width:1025px; margin:0 auto; margin-top:25px; }
@@ -392,7 +396,7 @@ h2.title02 a:hover { color:#fff;}
 .list { overflow:hidden;}
 .list .main { overflow:hidden; padding:0 0 0 20px;}
 .list .main ul li { width:176px; border:1px solid #e6e6e6; float:left; display:inline; margin-right:20px; margin-top:20px; padding-top:25px; background-color:#FFF; height:410px; overflow:hidden;}
-.list .main ul li:hover { background-color:#fff7ee; border:1px solid #fed98b;} 
+.list .main ul li:hover { background-color: #FAFCFF; border: 1px solid #9EC3F5;} 
 .list .main ul li .li_box { width:155px;  overflow:hidden; margin:0 auto;}
 .list .main ul li .li_box a { width:155px;  margin:0 auto; display:block; height:200px; position:relative; margin-bottom:5px;}
 .list .main ul li .li_box a span { width:155px; height:30px;  background-color:#3895e6; position:absolute; left:1px; bottom:0; filter: Alpha(opacity=50); -moz-opacity:0.5; opacity:0.5; z-index:1;}
@@ -429,7 +433,7 @@ h2.title02 a:hover { color:#fff;}
 .list_info_right02 p img { width:12px; height:12px; display:inline-block; margin-left:1px; vertical-align:middle;}
 .list_info_right02 .pop { position:relative; font-size:12px; font-weight:normal; color:#666; width:220px; margin-top:5px;}
 .list_info_right02 .pop  b { width:9px; height:5px; display:inline-block; vertical-align:middle; background-image:url(../images/bg.jpg); background-repeat:no-repeat; background-position:-433px -446px; margin:0 0 0 2px; *_margin-top:3px; *_margin-left:3px; overflow:hidden;}
-.list_info_right02 .pop .span_box { background-image:url(../images/pop_bg.png); *_background-image:url(../images/pop_bg.gif); background-repeat:no-repeat; width:206px; height:116px;  position:absolute; left:-12px; top:11px; display:none; overflow:hidden;}
+.list_info_right02 .pop .span_box {  background-repeat:no-repeat; width:206px; height:116px;  position:absolute; left:-12px; top:11px; display:none; overflow:hidden;}
 .list_info_right02 .pop .span_box .span_box_main { overflow:hidden; padding:16px 5px 0 13px;}
 .list_info_right02 .pop .span_box .span_box_main ul li { font-size:12px; font-weight:normal; line-height:22px; color:#666;}
 .list_info_right02 .pop .span_box .span_box_main ul li em { font-style:normal; color:#ff7800; font-family:Arial, Helvetica, sans-serif; display:inline-block; vertical-align:middle; width:20px;}
@@ -484,7 +488,7 @@ h2.title02 a:hover { color:#fff;}
 .blk06 h3 img { width:12px; height:12px; display:inline-block; vertical-align:middle; margin-right:1px;}
 .blk06 h3 a { color:#0075ac; font-family:Arial, Helvetica, sans-serif;}
 .blk06 h3 a:hover { color:#ff7800; }
-.blk06 .span_box { background-image:url(../images/pop_bg.png); *_background-image:url(../images/pop_bg.gif); background-repeat:no-repeat; width:206px; height:116px;  overflow:hidden;}
+.blk06 .span_box { background-repeat:no-repeat; width:206px; height:116px;  overflow:hidden;}
 .blk06 .span_box .span_box_main { overflow:hidden; padding:16px 5px 0 13px;}
 .blk06 .span_box .span_box_main ul li { font-size:12px; font-weight:normal; line-height:22px; color:#666;}
 .blk06 .span_box .span_box_main ul li em { font-style:normal; color:#ff7800; font-family:Arial, Helvetica, sans-serif; display:inline-block; vertical-align:middle; width:20px;}
@@ -492,11 +496,11 @@ h2.title02 a:hover { color:#fff;}
 .blk06 .span_box .span_box_main ul li i.i02 { font-style:normal; color:#FFF; background-color:#f40000; padding:1px 3px; margin:0 4px;}
 .blk06 .span_box .span_box_main ul li i.i03 { font-style:normal; color:#FFF; background-color:#ff9600; padding:1px 3px; margin:0 4px;}
 .l_info03 { overflow:hidden; margin-top:10px;}
-.l_info03_left { width:188px; height:84px; background-color:#fffbed; border:1px solid #ffefa1; float:left; display:inline;}
-.l_info03_left:hover { border:1px solid #f3db63; background-color:#fff7d9;}
+.l_info03_left { width:188px; height:84px; background-color:#fff; border:1px solid #e6e6e6; float:left; display:inline;}
+.l_info03_left:hover {background-color: #FAFCFF; border: 1px solid #9EC3F5;}
 .l_info03_left a.buttom001 { background-image: url(../images/bg02.jpg); background-repeat:no-repeat; background-position:0 -71px; display:block; margin:0 auto; margin-top:15px; width:162px; height:53px;}
-.l_info03_right { width:362px; float:right; display:inline; background-color:#fffbed; border:1px solid #ffefa1; height:84px;}
-.l_info03_right:hover { border:1px solid #f3db63; background-color:#fff7d9; }
+.l_info03_right { width:362px; float:right; display:inline; background-color: #fff; border: 1px solid #e6e6e6; height:84px;}
+.l_info03_right:hover { background-color: #FAFCFF; border: 1px solid #9EC3F5; }
 .l_info03_right .bottom002 {background-image: url("../images/bg02.jpg");
     background-position: -41px -23px;
     background-repeat: no-repeat;
@@ -548,7 +552,7 @@ h2.title02 a:hover { color:#fff;}
 .blk08 h2 { width: 885px; height: 36px; border-bottom: 1px solid #e6e6e6; background-color: #58c; background-repeat: no-repeat; background-position: 0 -203px; display: block; font-size: 14px; font-weight: bold; color: #FFF; line-height: 36px; padding: 0 0 0 15px;}
 .blk08 .main { padding:0 15px 15px 15px; overflow:hidden;}
 .b08_info { overflow:hidden; margin-top:15px;}
-.blk08 h3 { font-size:14px; font-weight:bold; color:#333; background-image:url(../images/icon09.jpg); background-repeat:no-repeat; background-position:left; padding:0 0 0 15px;}
+.blk08 h3 { font-size:14px; font-weight:bold; color:#333; background-repeat:no-repeat; background-position:left; padding:0 0 0 15px;}
 .b08_info table { width:895px; margin:0 auto; margin-top:10px; background-color:#f5eccc;}
 .b08_info table td { font-size:12px; font-weight:normal; line-height:36px; background-color:#fffbed; padding:0 0 0 10px; color:#333; font-family:Arial, Helvetica, sans-serif;}
 .b08_info table td.td02 { line-height:25px; padding:5px 0 5px 10px;}
@@ -739,7 +743,7 @@ h2.title02 a:hover { color:#fff;}
 .l_info01 .p3 em { width:9px; height:5px; display:inline-block; vertical-align:middle; background-image:url(../images/bg.jpg); background-repeat:no-repeat; background-position:-433px -446px; margin:0 0 0 2px;  overflow:hidden; position:relative;}
 .l_info01 .p3:hover em  { width:9px; height:5px; display:inline-block; vertical-align:middle; background-image:url(../images/bg.jpg); background-repeat:no-repeat; background-position:-433px -439px; margin:0 0 0 2px;  overflow:hidden;}
 .l_info01 .p3 span { color:#ff7800;}
-.p3_box { background-image:url(../images/pop_bg.png); *_background-image:url(../images/pop_bg.gif); background-repeat:no-repeat; width:206px; height:116px;overflow:hidden; position:absolute; top:13px; left:152px; display:none;}
+.p3_box { background-repeat:no-repeat; width:206px; height:116px;overflow:hidden; position:absolute; top:13px; left:152px; display:none;}
 .p3_box_main { overflow:hidden; padding:16px 10px 0 13px;}
 .p3_box_main p { font-size:12px; font-weight: normal; line-height:23px; color:#666666; border-bottom:1px dotted #666666;}
 .p3_box_main p span { float:right; height:12px; overflow:hidden; margin-top:6px;}
@@ -940,7 +944,7 @@ h2.title09 span i {  color:#ff7800; font-weight:bold; font-style:normal; margin:
 .publish_box h2 span { font-size:12px; font-weight:normal; float:right; color:#333333; width:260px; display:inline; margin-top:10px;} 
 .publish_box h2 span i { font-style:normal; color:#fe0000;}
 .publish_box .publish_info01 { padding:15px 100px 20px 100px; display:block; overflow:hidden; border-bottom:1px dotted #cccccc; height:1%;}
-.publish_box .publish_info01 h3 { font-size:14px; font-weight:bold; color:#333; line-height:30px; background-image:url(../images/publish_icon01.jpg); background-repeat:no-repeat; background-position:left; padding:0 0 0 17px;}
+.publish_box .publish_info01 h3 { font-size:14px; font-weight:bold; color:#333; line-height:30px;  background-repeat:no-repeat; background-position:left; padding:0 0 0 17px;}
 .list03 .list03_box { font-size:12px; font-weight:normal; color:#333; line-height:30px; overflow:hidden;}
 .list03 .list03_box .tit01 i { font-style:normal; color:#ff0101; margin-right:5px;}
 .list03 .list03_box .li_box { display:block; background-color:#f9f9f9; border:1px solid #dfdfdf; overflow:hidden; padding:5px 0 5px 15px; margin-top:5px; height:1%;}
@@ -1061,7 +1065,7 @@ h2.title09 span i {  color:#ff7800; font-weight:bold; font-style:normal; margin:
 .pi_right .main p { font-size:12px; font-weight:normal; line-height:22px; color:#666; margin-top:35px; text-indent:2em;}
 .pi_right .main p span { color:#ff7800;}
 .pi_right .main02 { overflow:hidden; padding:15px 15px 25px 15px;}
-.pi_right .main02 ul li { font-size:12px; font-weight:normal; line-height:25px; padding:0 5px 0 15px; background-image:url(../images/icon01.jpg); background-repeat:no-repeat; background-position:5px 10px;}
+.pi_right .main02 ul li { font-size:12px; font-weight:normal; line-height:25px; padding:0 5px 0 15px;  background-repeat:no-repeat; background-position:5px 10px;}
 .pi_right .main02 ul li a { color:#666; font-family:Arial, Helvetica, sans-serif;}
 .pi_right .main02 ul li a:hover { color:#ff7800;}
 .pi_right .main02 ul li span { color:#999; float:right; font-family:Arial, Helvetica, sans-serif;}
@@ -1235,7 +1239,7 @@ h2.title09 span i {  color:#ff7800; font-weight:bold; font-style:normal; margin:
 /**高端保洁**/
 .new_partd { margin-top:1px; overflow:hidden;}
 .new_partd h2 { border-bottom:2px solid #58c; padding:0 15px 0 0; height:40px; width:1195px; overflow:hidden; display:block; position:relative;}
-.new_partd h2 strong { width: 129px; height: 35px; position: absolute; top: 0; left: 40px; font: 400 18px Microsoft Yahei, \5b8b\4f53; line-height: 40px; color:#36c;}
+.new_partd h2 strong { width: 129px; height: 35px; position: absolute; top: 0; left: 20px; font: 400 18px Microsoft Yahei, \5b8b\4f53; line-height: 40px; color:#36c;}
 .new_partd h2 span { float:right; font-size:12px; font-weight:normal; line-height:45px; color:#666;}
 .new_partd h2 span a { color:#666;}
 .new_partd h2 span a:hover { color:#ff7800;}

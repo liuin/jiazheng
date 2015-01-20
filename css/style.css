@@ -1,14 +1,14 @@
 @charset "utf-8";
-.nav_info { background-image:url(../images/nav_info_bg.png); background-repeat:no-repeat; width:219px; height:420px; display:block; position:absolute; top:36px; right:0; *_width:211px; }
+.nav_info {  background-repeat:no-repeat; width:219px; height:420px; display:block; position:absolute; top:36px; right:0; *_width:211px; }
 .nav_info02 { display:none;}
 .headNav .navCon .navCon-cate .cateMenu li{ width:220px;overflow:hidden; }
 .headNav .navCon .navCon-cate .cateMenu li .cate-tag{  overflow:hidden; display:block; height:100%;}
 .headNav .navCon .navCon-cate .cateMenu li .cate-tag strong{ height:25px; line-height:25px;  display:block; text-indent:0px; background-repeat:no-repeat; background-position:right; display:block; padding:0 0 0 10px; margin-top:10px;}
 .headNav .navCon .navCon-cate .cateMenu li .cate-tag strong a{ font-size:15px; font-weight:bold; color:#36c;  font-family:"微软雅黑"; padding-left:30px; display:block;}
-.dt_title01 a { background-image:url(../images/icon01.png); *_background-image:url(../images/icon01_3.gif); background-repeat:no-repeat; background-position:-6px -4px;}
-.dt_title02 a { background-image:url(../images/icon01.png); background-repeat:no-repeat; background-position:-6px -124px;}
-.dt_title03 a { background-image:url(../images/icon01.png); *_background-image:url(../images/icon01_3.gif); background-repeat:no-repeat; background-position:-6px -223px;}
-.dt_title04 a { background-image:url(../images/icon01.png); background-repeat:no-repeat; background-position:-6px -342px;}
+.dt_title01 a { background-image:url(../images/sun.png); background-repeat:no-repeat;background-position: 6px -2px;}
+.dt_title02 a { background-image:url(../images/zoom.png); background-repeat:no-repeat; background-position: 3px -5px;}
+.dt_title03 a { background-image:url(../images/news.png); background-repeat:no-repeat; background-position: 3px -4px;}
+.dt_title04 a { background-image:url(../images/love.png); background-repeat:no-repeat; background-position: 0px -6px;}
 .headNav .navCon .navCon-cate .cateMenu li .cate-tag .listModel{text-indent:0px; }
 .headNav .navCon .navCon-cate .cateMenu li .cate-tag .listModel p{ font-size:12px; font-weight:normal; line-height:25px; float:left; width:75px; display:inline;  background-repeat:no-repeat; background-position:0 9px; padding-left:10px; margin-left:10px; height:25px; overflow:hidden; margin-top:0;}
 .headNav .navCon .navCon-cate .cateMenu li .cate-tag .listModel p a { font-size:12px; font-weight: normal; line-height:20px; color:#666666; font-family:"微软雅黑"; padding:0 0 0 20px;}
@@ -59,7 +59,7 @@
 .blk003 h3 a:hover { color:#ff7800;}
 .blk003 .blk003_main { overflow:hidden; padding:5px 0;}
 .blk003 .blk003_main p { display:block; padding:5px 0 5px 0; font-size:12px; font-weight:normal; line-height:25px; color:#333333; font-family:"微软雅黑";}
-.blk003 .blk003_main p a { width:80px; float:left; display:inline; line-height:25px;  color:#333333; padding:0 0 0 7px; background-image:url(../images/icon01.jpg); background-repeat:no-repeat; background-position:left;}
+.blk003 .blk003_main p a { width:80px; float:left; display:inline; line-height:25px;  color:#333333; padding:0 0 0 7px; background-repeat:no-repeat; background-position:left;}
 .blk003 .blk003_main p a:hover { color:#ff7800;}
 .blk003 a.more02 { font-size:12px; background-color:#ff7800; color:#FFF; position:absolute; bottom:13px; right:13px; font-family:"微软雅黑"; font-weight:normal; padding:0 5px; line-height:18px;}
 .blk003 a.more02:hover { color:#fff; text-decoration:none;}

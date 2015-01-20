@@ -1,5 +1,52 @@
 <?php include( "inc/header.php"); $title="找服务员" ; ?>
 <!--主体 开始-->
+<script type="text/javascript">
+<!--
+/*页面对象引用*/
+function MM_findObj(n, d) { //v4.01
+    var p, i, x; if (!d) d = document; if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+        d = parent.frames[n.substring(p + 1)].document; n = n.substring(0, p);
+    }
+    if (!(x = d[n]) && d.all) x = d.all[n]; for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+    for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+    if (!x && d.getElementById) x = d.getElementById(n); return x;
+}
+
+/*等比例缩放图片*/
+function AutosizeImage(ImgD, maxwidth, maxheight) {
+    var image = new Image();
+    image.src = ImgD.src;
+    if (image.width > 0 && image.height > 0) {
+        flag = true;
+        if (image.width / image.height >= maxwidth / maxheight) {
+            if (image.width > maxwidth) {
+                ImgD.width = maxwidth;
+                ImgD.height = (image.height * maxwidth) / image.width;
+            } else {
+                ImgD.width = image.width;
+                ImgD.height = image.height;
+            }
+        }
+        else {
+            if (image.height > maxheight) {
+                ImgD.height = maxheight;
+                ImgD.width = (image.width * maxheight) / image.height;
+            } else {
+                ImgD.width = image.width;
+                ImgD.height = image.height;
+            }
+        }
+    }
+}
+
+/*详情页缩略图切换图片*/
+function MM_swapImage() { //v3.0
+var i, j = 0, x, a = MM_swapImage.arguments; document.MM_sr = new Array; for (i = 0; i < (a.length - 2); i += 3)
+    if ((x = MM_findObj(a[i])) != null) { document.MM_sr[j++] = x; if (!x.oSrc) x.oSrc = x.src; x.src = a[i + 2]; AutosizeImage(x, 308, 308); x.src = a[i + 2]; AutosizeImage(x, 308, 308); MM_findObj("demo1").href = a[i + 2]; }
+}
+//-->
+</script>
+
 
 <div class="big_content">
     <div class="content02">
