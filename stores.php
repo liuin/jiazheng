@@ -1,4 +1,4 @@
-<?php include( "inc/header.php"); $title="店面顾问" ; ?>
+<?php $title="店面顾问" ; include( "inc/header.php");  ?>
 <!--主体 开始-->
 <div class="big_content">
     <div class="content02">

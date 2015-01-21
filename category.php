@@ -1,4 +1,4 @@
-<?php include( "inc/header.php"); $title="找服务员" ; ?>
+<?php $title="找服务员"; include( "inc/header.php");?>
 <!--主体 开始-->
 <div class="big_content">
     <div class="content02">
@@ -109,7 +109,7 @@
                 <ul>
                   <li>
                       <div class="li_box">
-                          <a href="#" target="_blank">
+                          <a href="product.php" target="_blank">
                               <img src="http://img.taiweifeng.com//product/2015/01/09/201501091705423.jpg"><span></span><i>TWF0015146 辽宁省 56岁</i>
                           </a>
                           <p>类型:<span class="sp01" alt="日常家务、小时工、一般家务、高端家务、别墅家务、涉外家务、管家服务、家务小时工、清洁卫生小时工、烹饪做饭小时工" title="日常家务、小时工、一般家务、高端家务、别墅家务、涉外家务、管家服务、家务小时工、清洁卫生小时工、烹饪做饭小时工">日常家务、小时工、一般家务、高端家务、…</span>
@@ -134,7 +134,7 @@
                   </li>
                   <li>
                       <div class="li_box">
-                          <a href="#" target="_blank">
+                          <a href="product.php" target="_blank">
                               <img src="http://img.taiweifeng.com//product/2015/01/09/201501091705423.jpg"><span></span><i>TWF0015146 辽宁省 56岁</i>
                           </a>
                           <p>类型:<span class="sp01" alt="日常家务、小时工、一般家务、高端家务、别墅家务、涉外家务、管家服务、家务小时工、清洁卫生小时工、烹饪做饭小时工" title="日常家务、小时工、一般家务、高端家务、别墅家务、涉外家务、管家服务、家务小时工、清洁卫生小时工、烹饪做饭小时工">日常家务、小时工、一般家务、高端家务、…</span>
@@ -159,7 +159,7 @@
                   </li>
                   <li>
                       <div class="li_box">
-                          <a href="#" target="_blank">
+                          <a href="product.php" target="_blank">
                               <img src="http://img.taiweifeng.com//product/2015/01/09/201501091705423.jpg"><span></span><i>TWF0015146 辽宁省 56岁</i>
                           </a>
                           <p>类型:<span class="sp01" alt="日常家务、小时工、一般家务、高端家务、别墅家务、涉外家务、管家服务、家务小时工、清洁卫生小时工、烹饪做饭小时工" title="日常家务、小时工、一般家务、高端家务、别墅家务、涉外家务、管家服务、家务小时工、清洁卫生小时工、烹饪做饭小时工">日常家务、小时工、一般家务、高端家务、…</span>
@@ -184,7 +184,7 @@
                   </li>
                   <li>
                       <div class="li_box">
-                          <a href="#" target="_blank">
+                          <a href="product.php" target="_blank">
                               <img src="http://img.taiweifeng.com//product/2015/01/09/201501091705423.jpg"><span></span><i>TWF0015146 辽宁省 56岁</i>
                           </a>
                           <p>类型:<span class="sp01" alt="日常家务、小时工、一般家务、高端家务、别墅家务、涉外家务、管家服务、家务小时工、清洁卫生小时工、烹饪做饭小时工" title="日常家务、小时工、一般家务、高端家务、别墅家务、涉外家务、管家服务、家务小时工、清洁卫生小时工、烹饪做饭小时工">日常家务、小时工、一般家务、高端家务、…</span>
@@ -209,7 +209,7 @@
                   </li>
                   <li>
                       <div class="li_box">
-                          <a href="#" target="_blank">
+                          <a href="product.php" target="_blank">
                               <img src="http://img.taiweifeng.com//product/2015/01/09/201501091705423.jpg"><span></span><i>TWF0015146 辽宁省 56岁</i>
                           </a>
                           <p>类型:<span class="sp01" alt="日常家务、小时工、一般家务、高端家务、别墅家务、涉外家务、管家服务、家务小时工、清洁卫生小时工、烹饪做饭小时工" title="日常家务、小时工、一般家务、高端家务、别墅家务、涉外家务、管家服务、家务小时工、清洁卫生小时工、烹饪做饭小时工">日常家务、小时工、一般家务、高端家务、…</span>
@@ -234,7 +234,7 @@
                   </li>
                   <li>
                       <div class="li_box">
-                          <a href="#" target="_blank">
+                          <a href="product.php" target="_blank">
                               <img src="http://img.taiweifeng.com//product/2015/01/09/201501091705423.jpg"><span></span><i>TWF0015146 辽宁省 56岁</i>
                           </a>
                           <p>类型:<span class="sp01" alt="日常家务、小时工、一般家务、高端家务、别墅家务、涉外家务、管家服务、家务小时工、清洁卫生小时工、烹饪做饭小时工" title="日常家务、小时工、一般家务、高端家务、别墅家务、涉外家务、管家服务、家务小时工、清洁卫生小时工、烹饪做饭小时工">日常家务、小时工、一般家务、高端家务、…</span>
@@ -259,7 +259,7 @@
                   </li>
                   <li>
                       <div class="li_box">
-                          <a href="#" target="_blank">
+                          <a href="product.php" target="_blank">
                               <img src="http://img.taiweifeng.com//product/2015/01/09/201501091705423.jpg"><span></span><i>TWF0015146 辽宁省 56岁</i>
                           </a>
                           <p>类型:<span class="sp01" alt="日常家务、小时工、一般家务、高端家务、别墅家务、涉外家务、管家服务、家务小时工、清洁卫生小时工、烹饪做饭小时工" title="日常家务、小时工、一般家务、高端家务、别墅家务、涉外家务、管家服务、家务小时工、清洁卫生小时工、烹饪做饭小时工">日常家务、小时工、一般家务、高端家务、…</span>
@@ -284,7 +284,7 @@
                   </li>
                   <li>
                       <div class="li_box">
-                          <a href="#" target="_blank">
+                          <a href="product.php" target="_blank">
                               <img src="http://img.taiweifeng.com//product/2015/01/09/201501091705423.jpg"><span></span><i>TWF0015146 辽宁省 56岁</i>
                           </a>
                           <p>类型:<span class="sp01" alt="日常家务、小时工、一般家务、高端家务、别墅家务、涉外家务、管家服务、家务小时工、清洁卫生小时工、烹饪做饭小时工" title="日常家务、小时工、一般家务、高端家务、别墅家务、涉外家务、管家服务、家务小时工、清洁卫生小时工、烹饪做饭小时工">日常家务、小时工、一般家务、高端家务、…</span>
@@ -309,7 +309,7 @@
                   </li>
                   <li>
                       <div class="li_box">
-                          <a href="#" target="_blank">
+                          <a href="product.php" target="_blank">
                               <img src="http://img.taiweifeng.com//product/2015/01/09/201501091705423.jpg"><span></span><i>TWF0015146 辽宁省 56岁</i>
                           </a>
                           <p>类型:<span class="sp01" alt="日常家务、小时工、一般家务、高端家务、别墅家务、涉外家务、管家服务、家务小时工、清洁卫生小时工、烹饪做饭小时工" title="日常家务、小时工、一般家务、高端家务、别墅家务、涉外家务、管家服务、家务小时工、清洁卫生小时工、烹饪做饭小时工">日常家务、小时工、一般家务、高端家务、…</span>

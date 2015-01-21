@@ -3,12 +3,12 @@
 <div class="big_content">
 <div class="content04">
 <div class="login_register">
-            <h2><span>我还未注册,<a href="#">[立即注册]</a></span>用户登录</h2>
+            <h2><span>我还未注册,<a href="reg.php">[立即注册]</a></span>用户登录</h2>
             <div class="main">
                   <h3 class="title10">
                       <ul>
-                          <li class="on"><a href="#">雇主登录</a></li>
-                          <li><a href="#">服务员登录</a></li>
+                          <li class="on"><a href="login.php">雇主登录</a></li>
+                          <li><a href="login2.php">服务员登录</a></li>
                       </ul>
                       <div class="clear"></div>
                   </h3>
